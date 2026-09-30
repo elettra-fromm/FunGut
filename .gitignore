@@ -129,5 +129,9 @@ dmypy.json
 .pyre/
 
 
-# Ignore large raw sequencing data
-/data/raw/
+# Ignore large raw sequencing data. 
+# * tells Git to ignore the contents of data/raw/.
+# Ignore raw data files, but keep the folder structure
+/data/raw/*
+!/data/raw/.gitkeep
+
