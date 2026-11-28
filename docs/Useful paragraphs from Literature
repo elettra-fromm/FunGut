@@ -32,7 +32,33 @@ ITS-Specific Features
 (Kapoor et al., 2026)
 
 
+
+To compare bacterial profiles between AD cases and controls,
+we estimated alpha diversity for each sample using Chao1 and
+Shannon indexes. The Chao1 index estimates sample richness
+by calculating the number of ASVs in each group, while the
+Shannon index reflects both richness and evenness by considering
+the relative distribution of sequences among ASVs (31). Group
+dierences in alpha diversity were evaluated with the Kruskal-
+Wallis test, and p-values were adjusted for pairwise comparisons.
+Univariable and multivariable linear regression models were used
+to evaluate associations between AD status and alpha diversity. The
+multivariable models were adjusted for age, body mass index (BMI)
+group, gestational age (full-term or preterm), parental education
+(categorized as intermediate for secondary school and vocational
+training, and high for university degrees or higher), family income
+(high or very high), birth method (cesarean section or vaginal
+delivery), breastfeeding status (exclusive or non-exclusive), feeding
+habits (hand-fed or spoon-fed), parental history of atopy (yes
+or no), and DNA concentration. Multiple testing correction was
+applied using the Benjamini-Hochberg method.
+
+(Effendi et al., 2026)
  
+
+
+
+
 Bibliography
 ------------
 ANCOM-BC2 Tutorial. (n.d.). Retrieved November 24, 2026, from https://bioconductor.posit.co/packages/release/bioc/vignettes/ANCOMBC/inst/doc/ANCOMBC2.html?utm_source=chatgpt.com
@@ -40,4 +66,8 @@ ANCOM-BC2 Tutorial. (n.d.). Retrieved November 24, 2026, from https://bioconduct
 Kapoor, B., Cregger, M. A., Hamilton, J., Mead, A., & Ranjan, P. (2026). RAPID: An interactive R/Shiny platform for end-to-end 16S rRNA and ITS amplicon sequence analysis using DADA2. Bioinformatics, 42(9), btag688. https://doi.org/10.1093/bioinformatics/btag688
 
 Lin, H., & Peddada, S. D. (2024). Multigroup analysis of compositions of microbiomes with covariate adjustments and repeated measures. Nature Methods, 21(1), 83–91. https://doi.org/10.1038/s41592-023-02092-7
+
+Effendi, Raden Mohamad & Witkam, Willemijn & Dwiyana, Reiva & Suwarsa, Oki & Kraaij, Robert & Murad, Chrysanti & Thio, Hok & Nijsten, Tamar & Pardo, Luba. (2026). Profiling skin microbiota in an underrepresented population: Indonesian children with atopic dermatitis and controls. Frontiers in Medicine. 13. 10.3389/fmed.2026.1697420. 
+
+
 
